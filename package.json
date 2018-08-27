@@ -1,11 +1,11 @@
 {
-  "name": "googlesearch",
+  "name": "gsearch",
   "main": "./lib/googlesearch",
-  "version": "1.4.0",
+  "version": "1.7.0",
   "description": "Search Highlighted word in google",
   "keywords": [],
   "activationCommands": {
-    "atom-workspace": "googlesearch:google-it"
+    "atom-workspace": "gsearch:google-it"
   },
   "repository": "https://github.com/shendezhou/gsearch",
   "license": "MIT",
