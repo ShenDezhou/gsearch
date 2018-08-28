@@ -2,7 +2,7 @@ Shell = require 'shell'
 
 module.exports =
   activate: ->
-    atom.commands.add 'atom-workspace', 'googlesearch:google-it': => @search()
+    atom.commands.add 'atom-workspace', 'gsearch:google-it': => @search()
 
   search: ->
     editor = atom.workspace.getActiveTextEditor()

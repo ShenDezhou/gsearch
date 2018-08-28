@@ -3,18 +3,18 @@
   'atom-text-editor': [
     {
       'label': 'Toggle googlesearch'
-      'command': 'googlesearch:google-it'
+      'command': 'gsearch:google-it'
     }
   ]
 'menu': [
   {
     'label': 'My Packages'
     'submenu': [
-      'label': 'google Search'
+      'label': '_google Search'
       'submenu': [
         {
           'label': 'Search'
-          'command': 'googlesearch:google-it'
+          'command': 'gsearch:google-it'
         }
       ]
     ]
