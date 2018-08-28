@@ -12,5 +12,5 @@ module.exports =
     buffer.transact ->
       for selection in selections
         cased = selection.getText()
-        url = "https://www.googleu.com/web?query=#{cased}"
+        url = "https://www.google.com/search?q=#{cased}&oq=#{cased}"
         Shell.openExternal url
